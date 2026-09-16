@@ -25,26 +25,31 @@ As análises dependem de bibliotecas padrão de manipulação de dados (`pandas`
 Siga o passo a passo abaixo para garantir a reprodutibilidade do código sem conflitos de versão:
 
 **1. Clone o repositório ou baixe os arquivos**
+
 Certifique-se de que o arquivo de dados (`.csv` da PRF) e o arquivo do notebook (`.ipynb`) estejam no mesmo diretório.
 
 **2. Crie um ambiente virtual (Opcional, mas recomendado)**
+
 Abra o terminal na pasta do projeto e execute:
 ```bash
 python -m venv venv
 ```
 
 Ative o ambiente:
+
 Windows: venv\Scripts\activate
 
 Linux/Mac: source venv/bin/activate
 
 **3. Instale as dependências** 
+
 Instale todas as bibliotecas necessárias executando:
 ```bash
 pip install -r requirements.txt
 ```
 
 **4. Execute o Jupyter Notebook**
+
 Inicie o servidor do Jupyter rodando:
 ```bash
 jupyter notebook
